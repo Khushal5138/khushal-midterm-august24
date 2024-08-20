@@ -1,0 +1,1 @@
+This doc is to check if GitHub is working as expected.
