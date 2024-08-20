@@ -1,0 +1,161 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e1eaf8; 
+  color: #333; 
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #1976d2;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #004ba0; 
+}
+
+.AppBar {
+  background-color: #ffffff; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.Toolbar .Typography {
+  font-weight: bold;
+  color: #1976d2; 
+}
+
+.Button {
+  color: #333;
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.Button:hover {
+  background-color: #f0f0f0;
+  color: #1976d2; 
+}
+
+form {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+form .TextField {
+  margin-bottom: 1.5rem;
+}
+
+form .Button {
+  background-color: #1976d2;
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+form .Button:hover {
+  background-color: #1565c0;
+}
+
+.Typography {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.Typography h4 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.Typography h6 {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.Members {
+  padding: 3rem;
+  background-color: #f7f9fc;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.Members .Typography {
+  margin-bottom: 1rem;
+}
+
+.Members .Typography h4 {
+  font-size: 2.5rem;
+  color: #1976d2;
+}
+
+.Members .Typography p {
+  font-size: 1.15rem;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .Toolbar {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .Button {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+
+  form {
+    padding: 1.5rem;
+  }
+}
